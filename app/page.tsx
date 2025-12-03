@@ -6,6 +6,7 @@ import AmenitiesSection from '@/components/AmenitiesSection';
 import LandmarksSection from '@/components/LandmarksSection';
 import GallerySection from '@/components/GallerySection';
 import CMDSection from '@/components/CMDSection';
+import EventsSection from '@/components/EventsSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 
@@ -20,6 +21,7 @@ export default function Home() {
       <LandmarksSection />
       <GallerySection />
       <CMDSection />
+      <EventsSection />
       <ContactSection />
       <Footer />
     </main>

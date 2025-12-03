@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { Facebook, Instagram, Linkedin, Phone, Mail, MapPin, ArrowUp } from 'lucide-react';
+import { Phone, Mail, MapPin, ArrowUp } from 'lucide-react';
 import { companyInfo, projects } from '../data/mock';
 
 const Footer = () => {
@@ -45,33 +45,6 @@ const Footer = () => {
               Your trusted partner for affordable residential plots and row houses in Lucknow. 
               Building dreams with transparency and quality since 2015.
             </p>
-            {/* Social Links */}
-            <div className="flex gap-3">
-              <a
-                href={companyInfo.social.facebook}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-lg bg-gray-800 hover:bg-emerald-600 flex items-center justify-center transition-colors"
-              >
-                <Facebook size={18} />
-              </a>
-              <a
-                href={companyInfo.social.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-lg bg-gray-800 hover:bg-emerald-600 flex items-center justify-center transition-colors"
-              >
-                <Instagram size={18} />
-              </a>
-              <a
-                href={companyInfo.social.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-lg bg-gray-800 hover:bg-emerald-600 flex items-center justify-center transition-colors"
-              >
-                <Linkedin size={18} />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}

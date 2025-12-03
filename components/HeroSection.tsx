@@ -4,6 +4,7 @@ import React from 'react';
 import { ArrowRight, MapPin, Home, IndianRupee } from 'lucide-react';
 import { Button } from './ui/button';
 import { companyInfo, stats } from '../data/mock';
+import Image from 'next/image';
 
 const HeroSection = () => {
   const scrollToSection = (href: string) => {
@@ -20,12 +21,14 @@ const HeroSection = () => {
     >
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
-        <img
-          src="https://images.unsplash.com/photo-1476385822777-70eabacbd41f?w=1920&h=1080&fit=crop"
-          alt="Residential Development"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
+          <Image
+            src="https://images.unsplash.com/photo-1476385822777-70eabacbd41f?w=1920&h=1080&fit=crop"
+            alt="Residential Development"
+            width={1920}
+            height={1080}
+            className="w-full h-full object-cover"
+          />
+        <div className="absolute inset-0 bg-linear-to-r from-black/80 via-black/60 to-black/40" />
       </div>
 
       {/* Decorative Elements */}
@@ -35,11 +38,6 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-32 w-full">
         <div className="max-w-3xl">
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-6 animate-fade-in">
-            <MapPin size={16} className="text-emerald-400" />
-            <span className="text-white/90 text-sm">{companyInfo.location}</span>
-          </div>
 
           {/* Main Heading */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">

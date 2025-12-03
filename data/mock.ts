@@ -1,14 +1,11 @@
+import vineet from '../public/Vineet Kumar.webp';
+
 export const companyInfo = {
   tagline: "Affordable Residential Plots & Row Houses",
-  location: "Lucknow, Uttar Pradesh",
+  location: "Para Ring Road, Poorvideen Kheda, Opp. Diesel Pump, Near Kalikaji Dhaba, Lucknow, Uttar Pradesh 206017",
   description: "Mangalam Infraventures brings you premium residential plots and row houses at affordable prices with easy EMI options. Located in prime areas of Lucknow with excellent connectivity.",
-  email: "info@mangalaminfraven.com",
-  phones: ["+91 9335911188", "+91 9335922288"],
-  social: {
-    facebook: "https://facebook.com/mangalaminfraven",
-    instagram: "https://instagram.com/mangalaminfraven",
-    linkedin: "https://linkedin.com/company/mangalaminfraven"
-  }
+  email: "info@mangalaminfra.com",
+  phones: ["+91 96519 98252", "+91 82994 90868"],
 };
 
 export const stats = [
@@ -21,32 +18,32 @@ export const stats = [
 export const projects = [
   {
     id: 1,
-    name: "Mangalam Green Valley",
+    name: "Mangalam Dream City",
     type: "Residential Plots",
-    location: "Sultanpur Road, Lucknow",
-    price: "₹15 Lakh+",
-    emiOption: "EMI Starting @ ₹15,000/month",
-    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&h=600&fit=crop",
-    features: ["Gated Community", "24/7 Security", "Water Supply", "Wide Roads"]
+    location: "Kursi Road, Lucknow",
+    price: "₹18 Lakh+",
+    emiOption: "EMI Starting @ ₹16,000/month",
+    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop",
+    features: ["Gated Township", "Park & Playground", "24/7 Security", "Wide Roads"]
   },
   {
     id: 2,
-    name: "Mangalam Residency",
-    type: "Row Houses",
-    location: "Faizabad Road, Lucknow",
-    price: "₹35 Lakh+",
-    emiOption: "EMI Starting @ ₹30,000/month",
-    image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&h=600&fit=crop",
-    features: ["2-3 BHK", "Car Parking", "Modular Kitchen", "Power Backup"]
+    name: "Mangalam City Phase-2",
+    type: "Residential Plots",
+    location: "Sitapur Road, Lucknow",
+    price: "₹14 Lakh+",
+    emiOption: "EMI Starting @ ₹12,500/month",
+    image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop",
+    features: ["Prime Location", "Water Supply", "Street Lights", "Boundary Wall"]
   },
   {
     id: 3,
-    name: "Mangalam Paradise",
+    name: "Mangalam Green City",
     type: "Residential Plots",
-    location: "Raebareli Road, Lucknow",
-    price: "₹12 Lakh+",
-    emiOption: "EMI Starting @ ₹12,000/month",
-    image: "https://images.unsplash.com/photo-1605146769289-440113cc3d00?w=800&h=600&fit=crop",
+    location: "Deva Road, Lucknow",
+    price: "₹13 Lakh+",
+    emiOption: "EMI Starting @ ₹11,000/month",
+    image: "https://images.unsplash.com/photo-1509395176047-4a66953fd231?w=800&h=600&fit=crop",
     features: ["Corner Plots", "Garden Area", "Club House", "CCTV Cameras"]
   }
 ];
@@ -96,12 +93,12 @@ export const amenities = [
 ];
 
 export const landmarks = [
-  { name: "Airport", distance: "15 km" },
-  { name: "Railway Station", distance: "8 km" },
-  { name: "Metro Station", distance: "3 km" },
-  { name: "Hospital", distance: "2 km" },
-  { name: "Shopping Mall", distance: "4 km" },
-  { name: "Highway", distance: "1 km" }
+  { name: "Ghunghuri Talab Chauraha", distance: "500 m" },
+  { name: "Mohan Road Highway", distance: "500 m" },
+  { name: "Agra Expressway", distance: "2.5 km" },
+  { name: "Sakuntla Mishra National University", distance: "-" },
+  { name: "Outer Ring Road", distance: "4 km" },
+  { name: "Indian Oil Petrol Pump", distance: "700 m" }
 ];
 
 export const galleryImages = [
@@ -138,8 +135,8 @@ export const galleryImages = [
 ];
 
 export const cmdInfo = {
-  name: "Rajesh Kumar Gupta",
+  name: "Mr Vineet Kumar",
   designation: "Chairman & Managing Director",
-  message: "At Mangalam Infraventures, we believe that everyone deserves a home they can call their own. Our commitment to quality, transparency, and affordability has helped thousands of families realize their dream of owning a home. We take pride in building not just houses, but communities where people thrive.",
-  image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&h=800&fit=crop"
+  message: "At Mangalam Infraventures, we believe that everyone deserves a home they can call their own. We take pride in building not just houses, but communities where people thrive.",
+  image: vineet
 };

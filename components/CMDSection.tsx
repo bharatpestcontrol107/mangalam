@@ -3,6 +3,7 @@
 import React from 'react';
 import { Quote } from 'lucide-react';
 import { cmdInfo } from '../data/mock';
+import Image from 'next/image';
 
 const CMDSection = () => {
   return (
@@ -17,7 +18,7 @@ const CMDSection = () => {
           <div className="md:col-span-1">
             <div className="relative">
               <div className="absolute inset-0 bg-emerald-500/20 rounded-2xl transform rotate-6" />
-              <img
+              <Image
                 src={cmdInfo.image}
                 alt={cmdInfo.name}
                 className="relative w-full h-80 object-cover rounded-2xl shadow-2xl"
